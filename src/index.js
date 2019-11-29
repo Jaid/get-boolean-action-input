@@ -1,23 +1,18 @@
 /** @module get-boolean-action-input */
 
+import {getInput} from "@actions/core"
+
 /**
  * @function
- * @param {number} [compareValue]
- * @returns {number} Seconds passed since Unix epoch (01 January 1970)
+ * @param {string} inputKey
+ * @param {Object} getInputOptions
+ * @returns {boolean} Input value as defined in workflow file
  * @example
  * import getBooleanActionInput from "get-boolean-action-input"
- * const result = getBooleanActionInput()
- * result === 1549410770
- * setTimeout(() => {
- *   const result2 = getBooleanActionInput(result)
- *   result2 === 3
- * }, 3000)
+ * const result = getBooleanActionInput("shouldFetchSomething")
+ * result === true
  */
-export default compareValue => {
-  const seconds = Math.floor(Date.now() / 1000)
-  if (compareValue === undefined) {
-    return seconds
-  } else {
-    return seconds - compareValue
-  }
+export default (inputKey, getInputOptions) => {
+  const value = getInput(inputKey, getInputOptions)
+  return /^\s*(true|1)\s*$/i.test(value)
 }
