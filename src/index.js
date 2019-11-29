@@ -12,7 +12,7 @@ import {getInput} from "@actions/core"
  * const result = getBooleanActionInput("shouldFetchSomething")
  * result === true
  */
-export default (inputKey, getInputOptions) => {
+export default function (inputKey, getInputOptions) {
   const value = getInput(inputKey, getInputOptions)
   return /^\s*(true|1)\s*$/i.test(value)
 }
