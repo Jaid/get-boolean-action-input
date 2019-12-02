@@ -3,6 +3,15 @@
 
 GitHub Actions getInput() wrapper that returns a boolean.
 
+## Installation
+<a href='https://npmjs.com/package/get-boolean-action-input'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --save get-boolean-action-input@^
+```
+<a href='https://yarnpkg.com/package/get-boolean-action-input'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn add get-boolean-action-input@^
+```
 
 
 ## Try it out
