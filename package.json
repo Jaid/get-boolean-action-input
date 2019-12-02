@@ -27,5 +27,6 @@
     "test": "echo No test needed",
     "prepareActionJest": "npm run build:prod"
   },
-  "name": "get-boolean-action-input"
+  "name": "get-boolean-action-input",
+  "description": "GitHub Actions getInput() wrapper that returns a boolean."
 }
