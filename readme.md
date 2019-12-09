@@ -4,31 +4,16 @@
 GitHub Actions getInput() wrapper that returns a boolean.
 
 ## Installation
-<a href='https://npmjs.com/package/get-boolean-action-input'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+<a href='https://npmjs.com/package/get-boolean-action-input'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save get-boolean-action-input@^
+npm install --save get-boolean-action-input@^1.0.2
 ```
-<a href='https://yarnpkg.com/package/get-boolean-action-input'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+<a href='https://yarnpkg.com/package/get-boolean-action-input'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add get-boolean-action-input@^
+yarn add get-boolean-action-input@^1.0.2
 ```
 
 
-## Try it out
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/get-boolean-action-input@1.0.2");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-The module is now loaded in a variable.
-
-```javascript
-typeof get-boolean-action-input.default
-```
 
 
 ## License
