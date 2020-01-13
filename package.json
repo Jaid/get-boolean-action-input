@@ -28,5 +28,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "get-boolean-action-input",
-  "description": "GitHub Actions getInput() wrapper that returns a boolean."
+  "description": "GitHub Actions getInput() wrapper that returns a boolean.",
+  "funding": "https://github.com/sponsors/jaid"
 }
