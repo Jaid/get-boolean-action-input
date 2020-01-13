@@ -29,5 +29,9 @@
   },
   "name": "get-boolean-action-input",
   "description": "GitHub Actions getInput() wrapper that returns a boolean.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/get-boolean-action-input"
+  }
 }
