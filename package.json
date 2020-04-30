@@ -34,5 +34,18 @@
     "url": "https://github.com/jaid/get-boolean-action-input"
   },
   "homepage": "https://github.com/Jaid/get-boolean-action-input",
-  "keywords": []
+  "keywords": [
+    "action",
+    "actions",
+    "boolean",
+    "get-input",
+    "github",
+    "github-action",
+    "github-actions",
+    "input",
+    "lib",
+    "library",
+    "util",
+    "utility"
+  ]
 }
