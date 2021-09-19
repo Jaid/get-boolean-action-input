@@ -47,5 +47,6 @@
     "library",
     "util",
     "utility"
-  ]
+  ],
+  "type": "module"
 }
